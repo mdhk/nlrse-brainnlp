@@ -1,0 +1,21 @@
+name: nlrse-brainnlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.8
+  - pandas=1.4.1
+  - scipy=1.8.0
+  - matplotlib=3.5.1
+  - cudatoolkit=11.3
+  - pytorch=1.10.2
+  - spacy=3.2.1
+  - plotly=5.6.0
+  - jupyterlab
+  - pip
+  - pip:
+      - transformers==4.17.0
+      - nltk==3.7
+      - scprep==1.1.0
+      - wget==3.2
+      - nilearn==0.9.0
